@@ -1,0 +1,54 @@
+
+h1:hover{
+  color: orange;
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(37, 35, 35);
+  border-radius: 50%;
+}
+.button:hover{
+  color: orange;
+  background-color:white;
+}
+
+.row{
+  margin: 8px 0;
+  
+}
+
+.row input{
+  width: 291px;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.row1 button{
+  background-color:lightgray;
+
+  
+}
+body{
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: rgb(6, 22, 22);
+  border: 3px solid black;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+}
+h1{
+  display: flex;
+  justify-content:center;
+  color: blueviolet;
+}
